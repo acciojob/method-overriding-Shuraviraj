@@ -1,8 +1,13 @@
 package com.driver.test;
 
-import static org.junit.Assert.*;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.Assert.assertEquals;
+
 public class TestCases {
-    
+    @Test
+    public void sampleTest() {
+        boolean result = true;
+        assertEquals(true, result);
+    }
 }
